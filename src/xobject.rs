@@ -3,7 +3,7 @@
 
 #[cfg(feature = "embedded_images")]
 use crate::rgba_to_rgb;
-use crate::OffsetDateTime;
+use time::OffsetDateTime;
 use crate::{ColorBits, ColorSpace, CurTransMat, Px};
 
 #[cfg(feature = "embedded_images")]
