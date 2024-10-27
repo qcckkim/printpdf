@@ -1,6 +1,6 @@
 //! Info dictionary of a PDF document
 
-use crate::OffsetDateTime;
+use time::OffsetDateTime;
 use crate::PdfMetadata;
 use lopdf;
 /// "Info" dictionary of a PDF document.
