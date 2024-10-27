@@ -7,7 +7,7 @@ use std::io::BufWriter;
 use std::io::Write;
 use std::rc::Rc;
 
-use crate::OffsetDateTime;
+use time::OffsetDateTime;
 use lopdf;
 
 use crate::indices::*;
